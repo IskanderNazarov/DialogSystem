@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8625e38777b542d0801c313cdfeaf3fa, type: 3}
+  m_Name: BarbyDialog
+  m_EditorClassIdentifier: 
+  iconLeft: {fileID: 21300000, guid: 56cd08da02ccb734785f322f0b6b58ce, type: 3}
+  iconRight: {fileID: 21300000, guid: 6ed54b86ab21d2a4aa44344667ee2864, type: 3}
+  phrases:
+  - isLeftPerson: 1
+    phrase: "\u2014Hiya, Barbie"
+  - isLeftPerson: 0
+    phrase: "\u2014Hi, Ken"
+  - isLeftPerson: 1
+    phrase: "\u2014You want to go for a ride?"
+  - isLeftPerson: 0
+    phrase: "\u2014Sure, Ken"
+  - isLeftPerson: 1
+    phrase: Jump in
+  - isLeftPerson: 0
+    phrase: I'm a Barbie girl, in the Barbie world Life in plastic, it's fantastic
+  - isLeftPerson: 1
+    phrase: Come on, Barbie, let's go party
